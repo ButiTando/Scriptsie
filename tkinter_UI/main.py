@@ -105,31 +105,7 @@ class SquareWidgetApp:
         ]
 
         self.main_frame = tk.Frame(self.root)
-        self.main_frame.pack(expand=True, fill="both", padx=20, pady=20)
-
-        # # Equal grid sizing
-        # for row in range(2):
-        #     self.main_frame.grid_rowconfigure(row, weight=1, minsize=250)
-        # for col in range(2):
-        #     self.main_frame.grid_columnconfigure(col, weight=1, minsize=250)
-
-        # for i, info in enumerate(self.widgets_info):
-        #     frame = tk.Frame(self.main_frame, bg=info["color"], bd=2, relief="ridge")
-        #     frame.grid(row=i//2, column=i%2, padx=10, pady=10, sticky="nsew")
-
-        #     if info["name"] == "CAM_STREAM":
-        #         CameraFeed(frame)
-        #     else:
-        #         btn = tk.Button(
-        #             frame,
-        #             text=info["name"],
-        #             fg="white",
-        #             bg=info["color"],
-        #             font=("Arial", 16, "bold"),
-        #             command=lambda idx=i: self.open_info_window(idx)
-        #         )
-        #         btn.pack(expand=True, fill="both")
-        
+        self.main_frame.pack(expand=True, fill="both", padx=20, pady=20)       
 
         # Equal grid sizing
         for row in range(2):
