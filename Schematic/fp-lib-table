@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NUCLEOH723ZG")(type "KiCad")(uri "${KIPRJMOD}/NUCLEOH723ZG/NUCLEOH723ZG.pretty")(options "")(descr ""))
+)
