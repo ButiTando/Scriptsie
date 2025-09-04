@@ -1,0 +1,33 @@
+!SESSION 2025-09-05 00:09:14.781 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_ZA
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-05 00:10:44.482
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-05 00:10:44.483
+!MESSAGE Log4j2 initialized with config file /home/tando/Scriptsie/Firmware/BLM/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-05 00:10:57.031
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-05 00:40:50.968
+!MESSAGE Indexed 'test' (27 sources, 90 headers) in 11.6 sec: 8,602 declarations; 63,375 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0028%)
+!SESSION 2025-09-05 01:11:07.377 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_ZA
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-09-05 01:11:17.928
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-05 01:11:28.033
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-05 01:11:28.034
+!MESSAGE Log4j2 initialized with config file /home/tando/Scriptsie/Firmware/BLM/.metadata/.log4j2.xml
