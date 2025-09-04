@@ -1515,16 +1515,16 @@
 		(uuid "e3913df2-59c5-4aca-b85a-16ed6ca3b71b")
 	)
 	(junction
-		(at 41.91 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e61dfcea-dd4b-4c24-86e1-5324a41c85b7")
-	)
-	(junction
 		(at 73.66 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7c40c4a-2b8e-45ae-9edb-864fa66b65ff")
+	)
+	(junction
+		(at 41.91 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff10067-707a-4aa1-972f-565511470f18")
 	)
 	(wire
 		(pts
@@ -1638,6 +1638,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 154.94) (xy 41.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76267922-05ef-47d5-91f8-8a883d330737")
+	)
+	(wire
+		(pts
 			(xy 58.42 40.64) (xy 58.42 44.45)
 		)
 		(stroke
@@ -1655,16 +1665,6 @@
 			(type default)
 		)
 		(uuid "7d98c8dd-c8c2-4958-9b26-4815ebf85cdf")
-	)
-	(wire
-		(pts
-			(xy 34.29 154.94) (xy 34.29 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81dbec55-19d1-46f3-a9b6-86df123f905f")
 	)
 	(wire
 		(pts
@@ -1705,6 +1705,16 @@
 			(type default)
 		)
 		(uuid "9df14985-34cb-41e6-b2dc-fa70e7cc54c5")
+	)
+	(wire
+		(pts
+			(xy 34.29 154.94) (xy 41.91 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9760e98-33b9-4146-9e84-6829a51fc360")
 	)
 	(wire
 		(pts
@@ -1768,13 +1778,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 154.94) (xy 41.91 154.94)
+			(xy 34.29 153.67) (xy 34.29 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9668ff4-2d07-4ad5-9996-7f6ac6f9f6ed")
+		(uuid "df2237c8-e674-4540-8b8d-a991fd46aa53")
 	)
 	(wire
 		(pts
@@ -1788,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 154.94) (xy 41.91 156.21)
+			(xy 41.91 153.67) (xy 41.91 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1815,16 +1825,6 @@
 			(type default)
 		)
 		(uuid "ee1b34db-0b33-4b08-8eb5-1a906e1dfb6b")
-	)
-	(wire
-		(pts
-			(xy 41.91 154.94) (xy 41.91 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f13b3427-9c19-4639-999d-b4a3227d6bdf")
 	)
 	(wire
 		(pts
@@ -1974,7 +1974,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 70.358 148.59 90)
 			(effects
 				(font
@@ -2476,7 +2476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 81.788 148.59 90)
 			(effects
 				(font
