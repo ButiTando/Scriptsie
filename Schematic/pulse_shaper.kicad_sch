@@ -5,41 +5,42 @@
 	(uuid "8e29c5f0-9f74-4098-8466-594c1b95bbc4")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Amplifier_Operational:ADA4898-2"
+		(symbol "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7"
 			(pin_names
-				(offset 0.127)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 5.08 0)
+				(at 7.62 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "ADA4898-2"
-				(at 0 -5.08 0)
+			(property "Value" "ADA4891-2ARZ-R7"
+				(at 7.62 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-				(at -1.27 -7.62 0)
+			(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,77 +58,261 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "MF" "Analog Devices"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "opamp dual low noise low distortion"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*1EP*3.9x4.9mm*P1.27mm*"
+			(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "ADA4898-2_1_1"
+			(property "Package" "SOIC-8 Analog Devices"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ADA4891-2ARZ-R7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ADA4891-2ARZ-R7_1_0"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -2.54 5.08) (xy -2.54 -5.08)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -1.778 1.778 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-"
+					(at -1.524 -2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "+VS"
+					(at 3.302 3.556 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-VS"
+					(at 3.302 -3.556 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left top)
 					)
 				)
 				(pin input line
-					(at -7.62 2.54 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "P$3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "-"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "P$2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P$8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P$4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -138,64 +323,106 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "P$1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 			)
-			(symbol "ADA4898-2_2_1"
+			(symbol "ADA4891-2ARZ-R7_2_0"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -2.54 5.08) (xy -2.54 -5.08)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -1.778 1.778 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-"
+					(at -1.524 -2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
 					)
 				)
 				(pin input line
-					(at -7.62 2.54 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "5"
+					(number "P$5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "-"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "6"
+					(number "P$6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -206,70 +433,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "7"
+					(number "P$7"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ADA4898-2_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -674,12 +845,6 @@
 		)
 	)
 	(junction
-		(at 83.82 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01bd6eed-d763-4bc9-841f-1059d3839bfa")
-	)
-	(junction
 		(at 82.55 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -710,6 +875,12 @@
 		(uuid "144e7bca-19f7-4065-a5d8-36b126a60a85")
 	)
 	(junction
+		(at 86.36 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ae1b032-c568-49e3-97d5-6782b6504f75")
+	)
+	(junction
 		(at 66.04 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -738,12 +909,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "722703d6-89ef-46b8-b256-b2d7a8d9f0c3")
-	)
-	(junction
-		(at 86.36 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74144069-44b0-4d92-8935-5a1aaec51ebb")
 	)
 	(junction
 		(at 64.77 208.28)
@@ -824,6 +989,12 @@
 		(uuid "c44962b5-fe9a-45ab-8454-9d3db89b905b")
 	)
 	(junction
+		(at 83.82 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9b27382-e144-4d2a-9488-17561858cda3")
+	)
+	(junction
 		(at 80.01 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -882,6 +1053,16 @@
 			(type default)
 		)
 		(uuid "03d6b74b-0c97-4d9a-9e84-0739aed33bcd")
+	)
+	(wire
+		(pts
+			(xy 52.07 113.03) (xy 57.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b2372a-b919-49eb-96ef-2a68738605e7")
 	)
 	(wire
 		(pts
@@ -975,13 +1156,53 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 208.28) (xy 58.42 208.28)
+			(xy 95.25 210.82) (xy 101.6 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1156ac76-718c-462e-b50c-183a5662a489")
+		(uuid "12eef215-a33a-4b78-b830-d9fe5588ecfa")
+	)
+	(wire
+		(pts
+			(xy 55.88 255.27) (xy 64.77 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1403ce03-bdd6-452a-9347-3484c1726c21")
+	)
+	(wire
+		(pts
+			(xy 83.82 26.67) (xy 87.63 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a34745-e9e9-4bfe-9671-5844b997340d")
+	)
+	(wire
+		(pts
+			(xy 57.15 167.64) (xy 66.04 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c35f22-ae13-47db-9b17-1db5cac43108")
+	)
+	(wire
+		(pts
+			(xy 50.8 247.65) (xy 55.88 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1689abc8-01f1-44f4-a95d-0646848cbea5")
 	)
 	(wire
 		(pts
@@ -1075,16 +1296,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 257.81) (xy 101.6 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24206bc4-74c1-4d99-a627-7d918e0f7217")
-	)
-	(wire
-		(pts
 			(xy 95.25 64.77) (xy 102.87 64.77)
 		)
 		(stroke
@@ -1132,6 +1343,16 @@
 			(type default)
 		)
 		(uuid "2c4a9060-506c-4de9-abaa-62edc702cdfe")
+	)
+	(wire
+		(pts
+			(xy 55.88 21.59) (xy 55.88 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5059b1-9ed2-4564-a65a-2d244b645b39")
 	)
 	(wire
 		(pts
@@ -1185,6 +1406,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 29.21) (xy 106.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3328c8c4-e4f1-4f9e-8fd1-c8109d1644f5")
+	)
+	(wire
+		(pts
 			(xy 43.18 29.21) (xy 45.72 29.21)
 		)
 		(stroke
@@ -1205,13 +1436,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 26.67) (xy 63.5 26.67)
+			(xy 55.88 19.05) (xy 60.96 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38b544db-5b71-4cf7-8b5a-e4ba6374f661")
+		(uuid "3a33e851-7cb5-4e21-8afe-074951326a64")
 	)
 	(wire
 		(pts
@@ -1255,6 +1486,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 45.72) (xy 88.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf828c7-4162-4813-9f7b-5f14cd2a381d")
+	)
+	(wire
+		(pts
 			(xy 64.77 92.71) (xy 71.12 92.71)
 		)
 		(stroke
@@ -1285,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 120.65) (xy 82.55 120.65)
+			(xy 80.01 120.65) (xy 83.82 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1302,16 +1543,6 @@
 			(type default)
 		)
 		(uuid "402fbb56-155f-47ba-9379-647d65d8c04e")
-	)
-	(wire
-		(pts
-			(xy 66.04 167.64) (xy 59.69 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b07dfe-1d6e-46a9-83f6-cbae5c9ef0fb")
 	)
 	(wire
 		(pts
@@ -1425,13 +1656,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 170.18) (xy 102.87 170.18)
+			(xy 52.07 115.57) (xy 52.07 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "524fea2e-618f-4175-91a8-6d4a89ead2c2")
+		(uuid "4c567d5f-fbea-40c0-a39c-35cd685cc88a")
 	)
 	(wire
 		(pts
@@ -1495,6 +1726,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 78.74) (xy 82.55 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59189ba9-855f-4e53-8686-cf053013db6b")
+	)
+	(wire
+		(pts
+			(xy 55.88 208.28) (xy 64.77 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6040af11-838d-4f82-8ec7-64a567a2197b")
+	)
+	(wire
+		(pts
 			(xy 78.74 199.39) (xy 86.36 199.39)
 		)
 		(stroke
@@ -1502,16 +1753,6 @@
 			(type default)
 		)
 		(uuid "612ed562-7696-43c3-b54e-266821862393")
-	)
-	(wire
-		(pts
-			(xy 86.36 31.75) (xy 86.36 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "619a4ba8-0fec-476a-a0b9-5f06e1d15ba7")
 	)
 	(wire
 		(pts
@@ -1565,6 +1806,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 73.66) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64571117-0616-4fab-a9d2-e2d54201cc9b")
+	)
+	(wire
+		(pts
+			(xy 82.55 172.72) (xy 83.82 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f54e41-ae22-44de-bea3-21699c75e001")
+	)
+	(wire
+		(pts
 			(xy 64.77 255.27) (xy 68.58 255.27)
 		)
 		(stroke
@@ -1575,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 167.64) (xy 82.55 167.64)
+			(xy 80.01 167.64) (xy 83.82 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1605,16 +1866,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 210.82) (xy 101.6 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b346c2-37c9-4613-87b1-43c688393cc8")
-	)
-	(wire
-		(pts
 			(xy 40.64 257.81) (xy 40.64 267.97)
 		)
 		(stroke
@@ -1625,13 +1876,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 123.19) (xy 143.51 123.19)
+			(xy 52.07 66.04) (xy 57.15 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73a13a17-0242-4ee3-8770-020b55d8f073")
+		(uuid "73624f2b-9752-4052-aa67-8e105af70b54")
 	)
 	(wire
 		(pts
@@ -1645,26 +1896,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 160.02 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7518c15a-279f-466f-a922-320e34e4382b")
-	)
-	(wire
-		(pts
-			(xy 158.75 123.19) (xy 160.02 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7626ee80-1463-4199-ab3a-69da64ff883b")
-	)
-	(wire
-		(pts
 			(xy 80.01 111.76) (xy 87.63 111.76)
 		)
 		(stroke
@@ -1675,13 +1906,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 257.81) (xy 142.24 257.81)
+			(xy 96.52 123.19) (xy 102.87 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79821b75-df1b-402f-908d-5bc9176253b3")
+		(uuid "7756e96d-4ad8-4346-999c-850569fb50c0")
 	)
 	(wire
 		(pts
@@ -1692,16 +1923,6 @@
 			(type default)
 		)
 		(uuid "7a6c9eca-6c41-4ea0-97ec-4bf25bef9421")
-	)
-	(wire
-		(pts
-			(xy 158.75 170.18) (xy 160.02 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d32c2bd-2d1e-44d7-9ecc-52d1ecfca949")
 	)
 	(wire
 		(pts
@@ -1725,7 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 73.66) (xy 82.55 73.66)
+			(xy 80.01 73.66) (xy 83.82 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1755,13 +1976,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 45.72) (xy 88.9 45.72)
+			(xy 81.28 213.36) (xy 82.55 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81dde91a-6cd1-4dd4-b89b-48995c9e29fa")
+		(uuid "813c213f-c887-4102-81eb-e884456e1857")
 	)
 	(wire
 		(pts
@@ -1772,16 +1993,6 @@
 			(type default)
 		)
 		(uuid "81e98cc8-e5ac-4c08-8e70-368478c1cd55")
-	)
-	(wire
-		(pts
-			(xy 162.56 29.21) (xy 163.83 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8245624a-ccd5-48f0-8023-147bdcd63e60")
 	)
 	(wire
 		(pts
@@ -1815,13 +2026,33 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 208.28) (xy 81.28 208.28)
+			(xy 78.74 208.28) (xy 82.55 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86bc4699-41f9-415a-ae54-f0548b8a305d")
+	)
+	(wire
+		(pts
+			(xy 82.55 125.73) (xy 83.82 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8720b40b-9c53-4986-ba1b-bfd6b1a6b6a3")
+	)
+	(wire
+		(pts
+			(xy 50.8 250.19) (xy 50.8 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887011bf-e32a-426b-a999-f850ff85fe67")
 	)
 	(wire
 		(pts
@@ -1845,26 +2076,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 210.82) (xy 158.75 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e9ca86-f19f-4316-9f6e-065c017d829c")
-	)
-	(wire
-		(pts
-			(xy 97.79 76.2) (xy 102.87 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b4c38c2-e610-44ba-a252-0aee72c0ea18")
-	)
-	(wire
-		(pts
 			(xy 68.58 45.72) (xy 74.93 45.72)
 		)
 		(stroke
@@ -1882,6 +2093,16 @@
 			(type default)
 		)
 		(uuid "8c1b328d-1b2f-4921-95a1-1acd2f73af84")
+	)
+	(wire
+		(pts
+			(xy 50.8 203.2) (xy 50.8 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e260e7b-de71-40c1-8821-f61603daa8e2")
 	)
 	(wire
 		(pts
@@ -1915,6 +2136,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 68.58) (xy 52.07 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a59cb7-3798-4bbf-9c0c-93aaa908587c")
+	)
+	(wire
+		(pts
 			(xy 82.55 125.73) (xy 82.55 139.7)
 		)
 		(stroke
@@ -1945,13 +2176,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 210.82) (xy 142.24 210.82)
+			(xy 52.07 160.02) (xy 57.15 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98114a7c-153d-426b-a7ba-f9cb62b659a1")
+		(uuid "98e48815-7ea8-4cde-9af2-a86d7ce8bdcf")
 	)
 	(wire
 		(pts
@@ -1995,26 +2226,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 120.65) (xy 59.69 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0514f57-a306-4bbe-b956-e0173aba85f6")
-	)
-	(wire
-		(pts
-			(xy 143.51 29.21) (xy 147.32 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a23ad616-db00-422a-985c-1c6fa45fbc30")
-	)
-	(wire
-		(pts
 			(xy 69.85 26.67) (xy 73.66 26.67)
 		)
 		(stroke
@@ -2022,16 +2233,6 @@
 			(type default)
 		)
 		(uuid "a2c90c1d-b1e2-4b3d-bc76-3883e243c83b")
-	)
-	(wire
-		(pts
-			(xy 160.02 123.19) (xy 160.02 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a317bb2b-3881-435a-a873-22353c612224")
 	)
 	(wire
 		(pts
@@ -2075,16 +2276,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 143.51 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa48b1a1-6f36-4eb2-a6b3-e41764f9f7d8")
-	)
-	(wire
-		(pts
 			(xy 66.04 120.65) (xy 69.85 120.65)
 		)
 		(stroke
@@ -2095,16 +2286,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 255.27) (xy 58.42 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae63be39-42b4-49ab-9235-6677d0157300")
-	)
-	(wire
-		(pts
 			(xy 60.96 39.37) (xy 69.85 39.37)
 		)
 		(stroke
@@ -2112,16 +2293,6 @@
 			(type default)
 		)
 		(uuid "b03fc3ae-e132-4235-ad4c-63b030840345")
-	)
-	(wire
-		(pts
-			(xy 139.7 170.18) (xy 143.51 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a0949c-5126-4b0a-a90f-9cffee253f6b")
 	)
 	(wire
 		(pts
@@ -2152,6 +2323,16 @@
 			(type default)
 		)
 		(uuid "b328046d-87de-4f34-ba5a-696161ac100d")
+	)
+	(wire
+		(pts
+			(xy 60.96 26.67) (xy 69.85 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e6e245-1e18-4b1c-9150-7a3e7e47bf5d")
 	)
 	(wire
 		(pts
@@ -2225,16 +2406,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 123.19) (xy 102.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1fe28f4-ee02-4175-bb1f-c036686613fe")
-	)
-	(wire
-		(pts
 			(xy 77.47 274.32) (xy 81.28 274.32)
 		)
 		(stroke
@@ -2242,6 +2413,16 @@
 			(type default)
 		)
 		(uuid "c4611b48-6227-4019-99ba-d15e464f68ee")
+	)
+	(wire
+		(pts
+			(xy 96.52 170.18) (xy 102.87 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64c3b3f-fcce-4df6-8dd6-1aed6f6b2e73")
 	)
 	(wire
 		(pts
@@ -2285,16 +2466,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 160.02 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbf38166-d9ed-43b1-bd94-02878963cb47")
-	)
-	(wire
-		(pts
 			(xy 27.94 170.18) (xy 31.75 170.18)
 		)
 		(stroke
@@ -2335,16 +2506,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 257.81) (xy 158.75 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d21baa3e-1f34-4eb8-812b-2c80fe709bd7")
-	)
-	(wire
-		(pts
 			(xy 76.2 208.28) (xy 78.74 208.28)
 		)
 		(stroke
@@ -2372,16 +2533,6 @@
 			(type default)
 		)
 		(uuid "d606b314-d649-43fd-ac6d-c3d55d309c82")
-	)
-	(wire
-		(pts
-			(xy 83.82 26.67) (xy 86.36 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9bff27e-9628-4975-95b4-68c282e6ed26")
 	)
 	(wire
 		(pts
@@ -2435,16 +2586,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 257.81) (xy 158.75 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de1d3033-0813-490b-98ce-44937b26c62c")
-	)
-	(wire
-		(pts
 			(xy 82.55 78.74) (xy 82.55 92.71)
 		)
 		(stroke
@@ -2452,6 +2593,16 @@
 			(type default)
 		)
 		(uuid "df16f96e-274c-403c-a318-51247cb6111e")
+	)
+	(wire
+		(pts
+			(xy 87.63 31.75) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df546c31-98a4-4421-a827-6479d043de35")
 	)
 	(wire
 		(pts
@@ -2515,6 +2666,36 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 120.65) (xy 66.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa4c34e-9e2e-4694-917a-d3c34d2b9e3c")
+	)
+	(wire
+		(pts
+			(xy 86.36 31.75) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb853d5b-8b51-4a6a-9359-34e71eb1f0f6")
+	)
+	(wire
+		(pts
+			(xy 52.07 162.56) (xy 52.07 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba409e5-662d-4781-adfe-8032f767a1fe")
+	)
+	(wire
+		(pts
 			(xy 91.44 274.32) (xy 95.25 274.32)
 		)
 		(stroke
@@ -2525,17 +2706,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 29.21) (xy 106.68 29.21)
+			(xy 81.28 260.35) (xy 82.55 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efbcb471-134d-447b-a3bc-981d549ee158")
+		(uuid "eef33780-0e50-49b0-b9e0-766f73667ff6")
 	)
 	(wire
 		(pts
-			(xy 78.74 255.27) (xy 81.28 255.27)
+			(xy 78.74 255.27) (xy 82.55 255.27)
 		)
 		(stroke
 			(width 0)
@@ -2575,13 +2756,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 210.82) (xy 158.75 213.36)
+			(xy 95.25 257.81) (xy 101.6 257.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5e19588-1019-4ecb-b1b1-4443d0366555")
+		(uuid "f656451b-d0e1-4317-80e8-dc317565b5b8")
 	)
 	(wire
 		(pts
@@ -2605,13 +2786,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 29.21) (xy 163.83 31.75)
+			(xy 50.8 200.66) (xy 55.88 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "faeb2aa0-ca86-4a97-8f20-ad519e4221db")
+		(uuid "f85a14c6-912e-482c-a6e9-250f1c09c325")
 	)
 	(wire
 		(pts
@@ -2625,16 +2806,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 73.66) (xy 59.69 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcedc07c-b6d7-4368-86aa-1175c7b8c6c0")
-	)
-	(wire
-		(pts
 			(xy 29.21 71.12) (xy 44.45 71.12)
 		)
 		(stroke
@@ -2645,13 +2816,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 170.18) (xy 160.02 172.72)
+			(xy 96.52 76.2) (xy 102.87 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff0e096f-30c6-4e4d-ac26-62e683b65c16")
+		(uuid "ff80063e-3769-4f72-ac7a-30e0e9dc9caa")
 	)
 	(global_label "pulse_out6"
 		(shape input)
@@ -2721,28 +2892,6 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 138.43 257.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "206d1259-5357-4e18-95da-a5363509c3d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9372 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
 		(at 68.58 45.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2785,7 +2934,7 @@
 			)
 		)
 	)
-	(global_label "pulse_in1"
+	(global_label "pulse_in3"
 		(shape input)
 		(at 29.21 118.11 180)
 		(fields_autoplaced yes)
@@ -2809,22 +2958,22 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 143.51 29.21 180)
+		(at 60.96 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "36bd0b6d-1f61-4a79-905a-c00ac60601b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0172 29.21 0)
+			(at 67.4528 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2869,28 +3018,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 139.7 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6eb9165a-f3a1-46d9-a493-294f681d7bc5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2072 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2961,28 +3088,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 139.7 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e99aaff-3737-4865-a01c-73dc5cede1ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2072 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "pulse_in1"
 		(shape input)
 		(at 33.02 24.13 180)
@@ -3049,7 +3154,7 @@
 			)
 		)
 	)
-	(global_label "pulse_in1"
+	(global_label "pulse_in5"
 		(shape input)
 		(at 27.94 205.74 180)
 		(fields_autoplaced yes)
@@ -3093,7 +3198,7 @@
 			)
 		)
 	)
-	(global_label "pulse_in1"
+	(global_label "pulse_in6"
 		(shape input)
 		(at 27.94 252.73 180)
 		(fields_autoplaced yes)
@@ -3115,7 +3220,29 @@
 			)
 		)
 	)
-	(global_label "pulse_in1"
+	(global_label "3V3"
+		(shape input)
+		(at 57.15 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b97faca2-960e-498d-8f95-1facedab564b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.6428 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pulse_in4"
 		(shape input)
 		(at 29.21 165.1 180)
 		(fields_autoplaced yes)
@@ -3139,44 +3266,22 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 139.7 76.2 180)
+		(at 57.15 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c2907f70-0e54-44e4-b5eb-4fcf25ced34c")
+		(uuid "c2b88906-96df-4a88-b68c-023ccfde5957")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2072 76.2 0)
+			(at 63.6428 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 138.43 210.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c451953e-8327-4851-a9fc-922347f70ff1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9372 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3203,7 +3308,7 @@
 			)
 		)
 	)
-	(global_label "pulse_in1"
+	(global_label "pulse_in2"
 		(shape input)
 		(at 29.21 71.12 180)
 		(fields_autoplaced yes)
@@ -3221,6 +3326,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 57.15 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3cf81f5-3b4b-48e2-8bc2-7a4734434db3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.6428 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3291,6 +3418,50 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 55.88 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9dae9d5-ecab-4d5c-a1d6-85c094a9af40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.3728 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 55.88 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc04d5cd-e51c-4206-8349-b19a083e8df4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.3728 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "pulse_out2"
 		(shape input)
 		(at 109.22 76.2 0)
@@ -3314,43 +3485,42 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 158.75 213.36 0)
-		(unit 1)
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 87.63 210.82 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00d2cf4e-f7a0-48d2-90ac-3933947c0653")
-		(property "Reference" "#PWR025"
-			(at 158.75 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 218.44 0)
+		(uuid "038b01e4-e5ba-4540-b22d-28a39b3c136d")
+		(property "Reference" "U7"
+			(at 90.932 205.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 213.36 0)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 91.694 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 213.36 0)
+			(at 87.63 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,8 +3528,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 213.36 0)
+		(property "Description" ""
+			(at 87.63 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,103 +3537,125 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1aacdc08-54f4-480b-a807-285299dab3e3")
+		(property "MF" "Analog Devices"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 87.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "e8ac7b0e-5ac1-40ee-b4ec-96293166441f")
+		)
+		(pin "P$5"
+			(uuid "afc2dfb8-739a-4ad2-8724-bdcf4a5eae3f")
+		)
+		(pin "P$8"
+			(uuid "284a72d8-bcbe-488c-ac97-a59364a75073")
+		)
+		(pin "P$2"
+			(uuid "973d3eb8-0795-4fd8-9484-fb60bd5f7d7a")
+		)
+		(pin "P$6"
+			(uuid "54573aa5-1278-4cdd-896d-06f0ee565d26")
+		)
+		(pin "P$3"
+			(uuid "ac987233-66f3-46e4-a4eb-948482a09515")
+		)
+		(pin "P$4"
+			(uuid "49c34526-68e9-46fd-9ecc-79c410cb065d")
+		)
+		(pin "P$1"
+			(uuid "9e615b77-90df-4982-8d7c-da1f0bfb4a28")
 		)
 		(instances
 			(project "Schematic"
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 50.8 255.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0328f8fe-1967-44d9-9c55-975f7135db92")
-		(property "Reference" "U8"
-			(at 50.8 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 50.8 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 49.53 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 50.8 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 50.8 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade63")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd670")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed395996597")
-		)
-		(pin "3"
-			(uuid "aa400607-35e4-4d8a-9603-c99e9d22a894")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7afa")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a295")
-		)
-		(pin "1"
-			(uuid "c06a42d8-8207-4816-b4fe-359c2b9e3291")
-		)
-		(pin "2"
-			(uuid "5663f2b2-7486-4905-ae1c-df2f4ff5d37b")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d73")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U8")
-					(unit 1)
+					(reference "U7")
+					(unit 2)
 				)
 			)
 		)
@@ -3605,183 +3797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 151.13 73.66 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0928d386-1d66-408d-bf1a-80494b48b7b4")
-		(property "Reference" "U4"
-			(at 151.13 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 151.13 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 158.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 151.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 151.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "f2755ca4-7070-46a1-a875-811977593812")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd66e")
-		)
-		(pin "9"
-			(uuid "ce3b1e71-98b7-4d52-9cd2-9eabc22f187d")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a18875883a")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7af8")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a293")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a91")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be675d")
-		)
-		(pin "4"
-			(uuid "6aa95fa0-6774-41da-ad2f-cded2fc64d91")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 90.17 170.18 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ad65f8e-f320-49e2-bf97-c141ad7903d6")
-		(property "Reference" "U5"
-			(at 89.916 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 90.17 177.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 88.9 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade62")
-		)
-		(pin "6"
-			(uuid "aa27efcf-6ef9-4da0-b23a-d96e787a433b")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed395996596")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a18875883b")
-		)
-		(pin "7"
-			(uuid "ee911b29-c4ee-4c97-81ac-fbad13624b63")
-		)
-		(pin "5"
-			(uuid "90aaa125-7075-4d23-8e9e-3a7da54c3563")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a92")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be675e")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d72")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 27.94 127 0)
 		(unit 1)
@@ -3914,161 +3929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 151.13 120.65 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a049810-079f-4c5a-a498-8509b375ea18")
-		(property "Reference" "U6"
-			(at 151.13 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 151.13 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 158.75 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 151.13 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 151.13 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "d36dc4b3-dbd2-4606-ac0e-8bfa4586a6fa")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd66f")
-		)
-		(pin "9"
-			(uuid "5f45f970-272a-4aaa-9e7d-7c57ad5daea3")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a18875883c")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7af9")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a294")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a93")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be675f")
-		)
-		(pin "4"
-			(uuid "d099c8a5-dfa6-4276-86d1-e1652043d872")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U6")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b151479-41b3-40ce-b355-c6a97ad8be1a")
-		(property "Reference" "#PWR019"
-			(at 160.02 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08553cd5-100e-4f4f-b580-c6004bc544f1")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 35.56 123.19 90)
 		(unit 1)
@@ -4093,7 +3953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 35.56 124.968 90)
 			(effects
 				(font
@@ -4160,7 +4020,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 74.93 141.478 90)
 			(effects
 				(font
@@ -4197,6 +4057,182 @@
 			(project "Schematic"
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 49.53 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f6be007-520f-489c-bc23-0f8354711c25")
+		(property "Reference" "U6"
+			(at 49.276 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 50.038 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "9c3b2159-0e71-4f7a-8de4-9691399eb756")
+		)
+		(pin "P$5"
+			(uuid "75b591d3-a6a0-4b55-82a7-0698687e59dc")
+		)
+		(pin "P$8"
+			(uuid "03a21f65-8aa7-4893-b571-db5509bda191")
+		)
+		(pin "P$2"
+			(uuid "9a7ba644-5d61-4d05-a374-d1b42ef90f35")
+		)
+		(pin "P$6"
+			(uuid "c51413bd-dded-4307-b315-b1f05192f96a")
+		)
+		(pin "P$3"
+			(uuid "9df8b699-ec63-4ca2-9048-4be629b2f738")
+		)
+		(pin "P$4"
+			(uuid "442ea600-cef1-4c08-bdf8-48318341a6df")
+		)
+		(pin "P$1"
+			(uuid "e15005ce-db5d-41cf-818e-54cda71080ab")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4293,7 +4329,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 91.44 66.548 90)
 			(effects
 				(font
@@ -4360,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 34.29 259.588 90)
 			(effects
 				(font
@@ -4403,95 +4439,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 154.94 26.67 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25413c7b-5561-4f9b-b5a9-e480153ad62c")
-		(property "Reference" "U3"
-			(at 154.94 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 154.94 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 162.56 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 154.94 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 154.94 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade61")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd671")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed395996595")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a18875883d")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7afb")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a296")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a94")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6760")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d71")
-		)
-		(instances
-			(project ""
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 88.9 92.71 90)
 		(unit 1)
@@ -4516,7 +4463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 88.9 94.488 90)
 			(effects
 				(font
@@ -4559,6 +4506,182 @@
 		)
 	)
 	(symbol
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 88.9 170.18 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "280af552-5e08-4392-98dc-49bff55e5a8c")
+		(property "Reference" "U6"
+			(at 92.202 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 92.964 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "ad05c785-bb92-4db5-ab13-09c22a89f452")
+		)
+		(pin "P$5"
+			(uuid "c7d9cefa-6ad4-4508-921c-bab5a5b213a3")
+		)
+		(pin "P$8"
+			(uuid "284a72d8-bcbe-488c-ac97-a59364a75074")
+		)
+		(pin "P$2"
+			(uuid "973d3eb8-0795-4fd8-9484-fb60bd5f7d7b")
+		)
+		(pin "P$6"
+			(uuid "73a4e38d-52f4-4991-9ccc-d6601c24215d")
+		)
+		(pin "P$3"
+			(uuid "ac987233-66f3-46e4-a4eb-948482a09516")
+		)
+		(pin "P$4"
+			(uuid "49c34526-68e9-46fd-9ecc-79c410cb065e")
+		)
+		(pin "P$1"
+			(uuid "9e615b77-90df-4982-8d7c-da1f0bfb4a29")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 186.69 90)
 		(unit 1)
@@ -4583,7 +4706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 88.9 188.468 90)
 			(effects
 				(font
@@ -4621,94 +4744,6 @@
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
 					(reference "R22")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 90.17 123.19 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a669759-c610-492e-8f89-d0ca084c38e3")
-		(property "Reference" "U6"
-			(at 89.916 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 90.17 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 88.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 90.17 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 90.17 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade64")
-		)
-		(pin "6"
-			(uuid "7c79b027-73be-45e0-a3d6-a4d7f042b0ae")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed395996598")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a18875883e")
-		)
-		(pin "7"
-			(uuid "9db5b7ef-daf3-4d90-a5ad-f0f9ce401d4a")
-		)
-		(pin "5"
-			(uuid "d0fb18f1-62a7-41e1-a869-045b7f912b98")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a95")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6761")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d74")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U6")
-					(unit 2)
 				)
 			)
 		)
@@ -4789,7 +4824,7 @@
 		(dnp no)
 		(uuid "3e7f15bc-f8eb-4b4d-91d5-b3d7b00b6461")
 		(property "Reference" "R29"
-			(at 52.07 265.43 90)
+			(at 52.07 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,14 +4832,14 @@
 			)
 		)
 		(property "Value" "8.2k"
-			(at 52.07 270.256 90)
+			(at 52.07 272.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 52.07 269.748 90)
 			(effects
 				(font
@@ -4841,138 +4876,6 @@
 			(project "Schematic"
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4063b915-8d91-4074-a044-47fbdec9c486")
-		(property "Reference" "#PWR020"
-			(at 160.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b5698f2-ad53-4085-a568-68bd8bd72a24")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "409d7ec3-9a06-49bf-985b-ed0aba4148d8")
-		(property "Reference" "#PWR014"
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d0596e0-2b96-42a1-80a3-9e1a3b7250eb")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5073,7 +4976,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 74.93 94.488 90)
 			(effects
 				(font
@@ -5116,95 +5019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 149.86 255.27 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44b4d479-0c0b-4ba4-94ac-fec072c198cb")
-		(property "Reference" "U8"
-			(at 149.86 250.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 149.86 252.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 157.48 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 149.86 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 149.86 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "1ee01f04-8387-42d5-8916-4cafb75043d5")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd672")
-		)
-		(pin "9"
-			(uuid "cb416611-fdcf-4bb8-a46d-2369540f65b1")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a18875883f")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7afc")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a297")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a96")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6762")
-		)
-		(pin "4"
-			(uuid "aa23d2f9-efa0-4891-91ae-72a74ed8dd18")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U8")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 73.66 120.65 90)
 		(unit 1)
@@ -5229,7 +5043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 73.66 122.428 90)
 			(effects
 				(font
@@ -5272,6 +5086,182 @@
 		)
 	)
 	(symbol
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 49.53 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "485cccaf-ea94-4e7d-8019-45cd6fd875a1")
+		(property "Reference" "U5"
+			(at 49.276 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 50.038 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "9c3b2159-0e71-4f7a-8de4-9691399eb757")
+		)
+		(pin "P$5"
+			(uuid "75b591d3-a6a0-4b55-82a7-0698687e59dd")
+		)
+		(pin "P$8"
+			(uuid "64632a86-e5d2-4120-ad2f-8563c9047317")
+		)
+		(pin "P$2"
+			(uuid "37abb44d-cf85-4ad5-a9dd-3a8a2f2c60e5")
+		)
+		(pin "P$6"
+			(uuid "c51413bd-dded-4307-b315-b1f05192f96b")
+		)
+		(pin "P$3"
+			(uuid "e00e8df9-4898-4e35-80d5-3e4eb08bbcc0")
+		)
+		(pin "P$4"
+			(uuid "1871d68d-e20c-4042-973a-b931f2d14615")
+		)
+		(pin "P$1"
+			(uuid "13caed6f-bd2e-4e2c-8ba5-cb92538771d1")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 87.63 274.32 90)
 		(unit 1)
@@ -5296,7 +5286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 87.63 276.098 90)
 			(effects
 				(font
@@ -5363,7 +5353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 35.56 77.978 90)
 			(effects
 				(font
@@ -5430,7 +5420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 53.34 182.118 90)
 			(effects
 				(font
@@ -5543,6 +5533,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50c073e4-4b48-4d37-bd9c-f1acb83a87ea")
+		(property "Reference" "#PWR026"
+			(at 50.8 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b796fe85-e2c4-4045-96e2-56198060e7d3")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 139.7 90)
 		(unit 1)
@@ -5567,7 +5622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 88.9 141.478 90)
 			(effects
 				(font
@@ -5610,6 +5665,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58f28359-b12b-4a74-a000-71b7a5c2e618")
+		(property "Reference" "#PWR025"
+			(at 50.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71198fd4-225e-424a-aa5a-720bdd5a4a7e")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c29c5b3-b5f6-4533-9567-b0c07fed03ce")
+		(property "Reference" "#PWR019"
+			(at 52.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "832ab72e-c7aa-4d1f-9031-4f435102bbed")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 57.15 39.37 90)
 		(unit 1)
@@ -5619,7 +5804,7 @@
 		(dnp no)
 		(uuid "65b31994-2d14-4bfd-89a0-dde3d3dc1ca5")
 		(property "Reference" "R3"
-			(at 57.15 36.83 90)
+			(at 56.896 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,14 +5812,14 @@
 			)
 		)
 		(property "Value" "8.2k"
-			(at 57.15 41.656 90)
+			(at 56.896 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 57.15 41.148 90)
 			(effects
 				(font
@@ -5743,94 +5928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 93.98 29.21 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c176739-a2a4-4316-adcd-c200081d1c24")
-		(property "Reference" "U3"
-			(at 93.726 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 93.98 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 92.71 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 93.98 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 93.98 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade65")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd673")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed395996599")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a188758840")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7afd")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a298")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a97")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6763")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d75")
-		)
-		(instances
-			(project ""
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 34.29 210.82 90)
 		(unit 1)
@@ -5855,7 +5952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 34.29 212.598 90)
 			(effects
 				(font
@@ -5968,95 +6065,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 149.86 208.28 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73687289-85a9-4e21-9e9b-09bbf93aeb82")
-		(property "Reference" "U7"
-			(at 149.86 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 149.86 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 157.48 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 149.86 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 149.86 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "f3a55356-4ef6-4e6c-97c2-07b21a5e3f68")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd674")
-		)
-		(pin "9"
-			(uuid "d1c09bf0-52e6-45de-b4de-e8fd98a6340e")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a188758841")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7afe")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a299")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a98")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6764")
-		)
-		(pin "4"
-			(uuid "750d8ea2-3dbf-426c-ba87-8f71bc94fee6")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U7")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 87.63 227.33 90)
 		(unit 1)
@@ -6081,7 +6089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 87.63 229.108 90)
 			(effects
 				(font
@@ -6190,6 +6198,182 @@
 		)
 	)
 	(symbol
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 48.26 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bb309f0-2df8-4570-8796-3763b94f10da")
+		(property "Reference" "U8"
+			(at 48.006 240.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 48.768 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 48.26 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "9c3b2159-0e71-4f7a-8de4-9691399eb758")
+		)
+		(pin "P$5"
+			(uuid "75b591d3-a6a0-4b55-82a7-0698687e59de")
+		)
+		(pin "P$8"
+			(uuid "e1528b9f-c3d0-4ef2-af86-be5332dad664")
+		)
+		(pin "P$2"
+			(uuid "8e4c147e-8d32-4a27-b28d-d453935a9177")
+		)
+		(pin "P$6"
+			(uuid "c51413bd-dded-4307-b315-b1f05192f96c")
+		)
+		(pin "P$3"
+			(uuid "1265bb0b-bf0f-4103-a81d-69af24d7ccd1")
+		)
+		(pin "P$4"
+			(uuid "411ae757-76ed-4cc9-b760-e6f00c867cbf")
+		)
+		(pin "P$1"
+			(uuid "06dd24bf-97cb-4261-9f3f-0ae660985b0d")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.39 255.27 90)
 		(unit 1)
@@ -6214,7 +6398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 72.39 257.048 90)
 			(effects
 				(font
@@ -6281,7 +6465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 53.34 135.128 90)
 			(effects
 				(font
@@ -6390,17 +6574,192 @@
 		)
 	)
 	(symbol
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 92.71 29.21 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87975425-273b-4050-b691-c19eec1667f9")
+		(property "Reference" "U3"
+			(at 96.012 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 96.774 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "9c3b2159-0e71-4f7a-8de4-9691399eb759")
+		)
+		(pin "P$5"
+			(uuid "75b591d3-a6a0-4b55-82a7-0698687e59df")
+		)
+		(pin "P$8"
+			(uuid "284a72d8-bcbe-488c-ac97-a59364a75075")
+		)
+		(pin "P$2"
+			(uuid "973d3eb8-0795-4fd8-9484-fb60bd5f7d7c")
+		)
+		(pin "P$6"
+			(uuid "c51413bd-dded-4307-b315-b1f05192f96d")
+		)
+		(pin "P$3"
+			(uuid "ac987233-66f3-46e4-a4eb-948482a09517")
+		)
+		(pin "P$4"
+			(uuid "49c34526-68e9-46fd-9ecc-79c410cb065f")
+		)
+		(pin "P$1"
+			(uuid "9e615b77-90df-4982-8d7c-da1f0bfb4a2a")
+		)
+		(instances
+			(project ""
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 163.83 31.75 0)
+		(at 55.88 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c277da5-e042-4887-952c-ebed0bb5d6e0")
 		(property "Reference" "#PWR011"
-			(at 163.83 38.1 0)
+			(at 55.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +6768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 36.83 0)
+			(at 55.88 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +6776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 31.75 0)
+			(at 55.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +6785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 31.75 0)
+			(at 55.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 31.75 0)
+			(at 55.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,6 +6881,182 @@
 		)
 	)
 	(symbol
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 88.9 76.2 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fc3909d-54fb-4e8f-a5c5-372e69610087")
+		(property "Reference" "U4"
+			(at 92.202 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 92.964 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "e4deaab3-74a2-4690-a024-fcdd0e4d67bb")
+		)
+		(pin "P$5"
+			(uuid "a67f7a97-ff7c-4f4d-905c-24583c5cc198")
+		)
+		(pin "P$8"
+			(uuid "284a72d8-bcbe-488c-ac97-a59364a75076")
+		)
+		(pin "P$2"
+			(uuid "973d3eb8-0795-4fd8-9484-fb60bd5f7d7d")
+		)
+		(pin "P$6"
+			(uuid "b13853bc-fc85-431d-af4e-246489d6722a")
+		)
+		(pin "P$3"
+			(uuid "ac987233-66f3-46e4-a4eb-948482a09518")
+		)
+		(pin "P$4"
+			(uuid "49c34526-68e9-46fd-9ecc-79c410cb0660")
+		)
+		(pin "P$1"
+			(uuid "9e615b77-90df-4982-8d7c-da1f0bfb4a2b")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 91.44 111.76 90)
 		(unit 1)
@@ -6546,7 +7081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 91.44 113.538 90)
 			(effects
 				(font
@@ -6613,7 +7148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 90.17 201.168 90)
 			(effects
 				(font
@@ -6878,7 +7413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 74.93 188.468 90)
 			(effects
 				(font
@@ -6987,6 +7522,182 @@
 		)
 	)
 	(symbol
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 88.9 123.19 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a088df27-1188-42b4-abcd-5578123dddef")
+		(property "Reference" "U5"
+			(at 92.202 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 92.964 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "70f5e3b4-b100-441a-8d3a-36ff44b773ef")
+		)
+		(pin "P$5"
+			(uuid "86c551bd-9899-42df-bb11-ad8f399a56f6")
+		)
+		(pin "P$8"
+			(uuid "284a72d8-bcbe-488c-ac97-a59364a75077")
+		)
+		(pin "P$2"
+			(uuid "973d3eb8-0795-4fd8-9484-fb60bd5f7d7e")
+		)
+		(pin "P$6"
+			(uuid "9246bbde-a575-4864-9f55-a30521418524")
+		)
+		(pin "P$3"
+			(uuid "ac987233-66f3-46e4-a4eb-948482a09519")
+		)
+		(pin "P$4"
+			(uuid "49c34526-68e9-46fd-9ecc-79c410cb0661")
+		)
+		(pin "P$1"
+			(uuid "9e615b77-90df-4982-8d7c-da1f0bfb4a2c")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 73.66 73.66 90)
 		(unit 1)
@@ -7011,7 +7722,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 73.66 75.438 90)
 			(effects
 				(font
@@ -7054,95 +7765,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 50.8 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a47959c9-155c-4ffc-bc61-bd485e1b4e8c")
-		(property "Reference" "U7"
-			(at 50.8 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 50.8 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 49.53 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 50.8 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 50.8 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade66")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd675")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed39599659a")
-		)
-		(pin "3"
-			(uuid "96928c41-94d1-479e-baa5-86fd9e1ded41")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7aff")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a29a")
-		)
-		(pin "1"
-			(uuid "02af32f0-a48c-4fe4-8575-f4903c022fb0")
-		)
-		(pin "2"
-			(uuid "faeae299-6bea-4b38-929c-647db3b66a9c")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d76")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 72.39 208.28 90)
 		(unit 1)
@@ -7167,7 +7789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 72.39 210.058 90)
 			(effects
 				(font
@@ -7304,7 +7926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 39.37 30.988 90)
 			(effects
 				(font
@@ -7347,33 +7969,42 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 52.07 167.64 0)
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 53.34 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6db4776-3705-452a-b362-b4db7e7ea999")
-		(property "Reference" "U5"
-			(at 52.07 157.48 0)
+		(uuid "b9496932-1f01-4e3f-841f-91d8f21ca120")
+		(property "Reference" "U3"
+			(at 53.086 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ADA4898-2"
-			(at 52.07 160.02 0)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 53.848 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 50.8 175.26 0)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,8 +8012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 52.07 167.64 0)
+		(property "Description" ""
+			(at 53.34 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,46 +8021,124 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 52.07 167.64 0)
+		(property "MF" "Analog Devices"
+			(at 53.34 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade67")
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd676")
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed39599659b")
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "11a7c3cb-a6c8-41af-bf5d-77179698996d")
+		(property "Price" "None"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7b00")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a29b")
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "1a6a00ce-d3f2-44af-aeea-720aabba2314")
+		(property "Availability" "In Stock"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "699c6ade-d024-428c-9568-69dba1ddf35f")
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d77")
+		(pin "P$7"
+			(uuid "9c3b2159-0e71-4f7a-8de4-9691399eb75a")
+		)
+		(pin "P$5"
+			(uuid "75b591d3-a6a0-4b55-82a7-0698687e59e0")
+		)
+		(pin "P$8"
+			(uuid "284a72d8-bcbe-488c-ac97-a59364a75078")
+		)
+		(pin "P$2"
+			(uuid "973d3eb8-0795-4fd8-9484-fb60bd5f7d7f")
+		)
+		(pin "P$6"
+			(uuid "c51413bd-dded-4307-b315-b1f05192f96e")
+		)
+		(pin "P$3"
+			(uuid "ac987233-66f3-46e4-a4eb-948482a0951a")
+		)
+		(pin "P$4"
+			(uuid "49c34526-68e9-46fd-9ecc-79c410cb0662")
+		)
+		(pin "P$1"
+			(uuid "9e615b77-90df-4982-8d7c-da1f0bfb4a2d")
 		)
 		(instances
-			(project "Schematic"
+			(project ""
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7460,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 92.71 47.498 90)
 			(effects
 				(font
@@ -7503,6 +8212,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 52.07 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c63d29-6799-4660-8590-76545cc1b324")
+		(property "Reference" "#PWR020"
+			(at 52.07 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b61b0379-195e-445f-b32f-561813dd7c33")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 220.98 90)
 		(unit 1)
@@ -7527,7 +8301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 52.07 222.758 90)
 			(effects
 				(font
@@ -7570,183 +8344,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 88.9 210.82 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4400ce2-c110-428c-a353-4c38d090ae96")
-		(property "Reference" "U7"
-			(at 88.646 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 88.9 217.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 87.63 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 88.9 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 88.9 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade68")
-		)
-		(pin "6"
-			(uuid "73b43f2a-0bae-4958-9e1e-fe4171a31ffc")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed39599659c")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a188758842")
-		)
-		(pin "7"
-			(uuid "4362c151-e3d5-4080-8c73-488ff11e00d9")
-		)
-		(pin "5"
-			(uuid "ab91f4c7-b564-459f-80ba-0e506e28c4e4")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a99")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6765")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d78")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U7")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 55.88 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c444469a-f923-4fbc-9493-2d56b7db975a")
-		(property "Reference" "U3"
-			(at 55.88 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 55.88 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 54.61 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 55.88 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 55.88 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade69")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd677")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed39599659d")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a188758843")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7b01")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a29c")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a9a")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6766")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d79")
-		)
-		(instances
-			(project ""
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 73.66 227.33 90)
 		(unit 1)
@@ -7771,7 +8368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 73.66 229.108 90)
 			(effects
 				(font
@@ -7970,7 +8567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 35.56 171.958 90)
 			(effects
 				(font
@@ -8083,32 +8680,42 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 88.9 257.81 0)
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 87.63 257.81 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d04a3e8a-f41c-4a75-8a72-d7d5d77f6df5")
+		(uuid "cbb3e0a2-f3fb-427a-a021-40c88ccaa5bb")
 		(property "Reference" "U8"
-			(at 88.646 251.46 0)
+			(at 90.932 252.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ADA4898-2"
-			(at 88.9 264.922 0)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 91.694 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 87.63 265.43 0)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 87.63 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,8 +8723,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 88.9 257.81 0)
+		(property "Description" ""
+			(at 87.63 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,401 +8732,124 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 88.9 257.81 0)
+		(property "MF" "Analog Devices"
+			(at 87.63 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade6a")
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 87.63 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "105c681a-1e70-4c65-8608-414e9d00428d")
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 87.63 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed39599659e")
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 87.63 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a188758844")
+		(property "Price" "None"
+			(at 87.63 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "7"
-			(uuid "f769d6b1-bc76-4c8e-be10-0e0d0532d667")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 87.63 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "746b9ceb-2162-4c6e-8cb6-b946cc81c367")
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 87.63 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a9b")
+		(property "Availability" "In Stock"
+			(at 87.63 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6767")
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 87.63 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d7a")
+		(pin "P$7"
+			(uuid "f4be27f6-8086-4ee5-98b7-e440cb2ada30")
+		)
+		(pin "P$5"
+			(uuid "74f68a76-80e4-4c61-ae18-da32edb2d0f3")
+		)
+		(pin "P$8"
+			(uuid "284a72d8-bcbe-488c-ac97-a59364a75079")
+		)
+		(pin "P$2"
+			(uuid "973d3eb8-0795-4fd8-9484-fb60bd5f7d80")
+		)
+		(pin "P$6"
+			(uuid "8de68b2f-c42b-48e4-a19e-5c4f773d5438")
+		)
+		(pin "P$3"
+			(uuid "ac987233-66f3-46e4-a4eb-948482a0951b")
+		)
+		(pin "P$4"
+			(uuid "49c34526-68e9-46fd-9ecc-79c410cb0663")
+		)
+		(pin "P$1"
+			(uuid "9e615b77-90df-4982-8d7c-da1f0bfb4a2e")
 		)
 		(instances
 			(project "Schematic"
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
 					(reference "U8")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 151.13 167.64 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2035bb7-196d-4df4-921f-ed96ea3dbd6e")
-		(property "Reference" "U5"
-			(at 151.13 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 151.13 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 158.75 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 151.13 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 151.13 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ddd0e193-a811-4bfb-864f-1bb2c4329779")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd678")
-		)
-		(pin "9"
-			(uuid "84f75389-d978-4a5c-8a77-b6f80adf0f14")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a188758845")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7b02")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a29d")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a9c")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6768")
-		)
-		(pin "4"
-			(uuid "11399b94-4b27-44da-8f6b-c311e3d8cc31")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U5")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 52.07 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5eba464-54ff-4e3e-bc5d-5cfa2b8be10e")
-		(property "Reference" "U4"
-			(at 52.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 52.07 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 50.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 52.07 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 52.07 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade6b")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd679")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed39599659f")
-		)
-		(pin "3"
-			(uuid "c3bae2d2-e284-43e1-87f1-e401fc23e6ef")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7b03")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a29e")
-		)
-		(pin "1"
-			(uuid "68b4916c-ba2c-4b36-8604-ddc4a4f14268")
-		)
-		(pin "2"
-			(uuid "45df8cca-bd6b-4d25-befa-febc57f3dd92")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d7b")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 52.07 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db317170-0ef7-4dc9-bf86-38ce5ef5b2ee")
-		(property "Reference" "U6"
-			(at 52.07 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 52.07 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 50.8 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 52.07 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 52.07 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade6c")
-		)
-		(pin "6"
-			(uuid "5c1eb067-eace-4084-8924-e7ccf0cfd67a")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed3959965a0")
-		)
-		(pin "3"
-			(uuid "956671dc-6edd-40dc-9d18-a9ddf5d24367")
-		)
-		(pin "7"
-			(uuid "bb6d62ec-8bb8-4f71-bb19-953f011d7b04")
-		)
-		(pin "5"
-			(uuid "147a2577-fd68-4c08-9de6-6416f2e1a29f")
-		)
-		(pin "1"
-			(uuid "59409397-6733-4428-b92a-de1fc98e1705")
-		)
-		(pin "2"
-			(uuid "8604a8a8-091e-4d09-9133-7b7f8aa896a3")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d7c")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4898-2")
-		(at 90.17 76.2 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0506543-bd6b-4584-bde2-28fab2ce5bdd")
-		(property "Reference" "U4"
-			(at 89.916 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4898-2"
-			(at 90.17 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 88.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ca41484e-6a31-4f0c-95fe-f7a99e3ade6d")
-		)
-		(pin "6"
-			(uuid "edbc9b4b-543b-479d-a932-f3868f552114")
-		)
-		(pin "9"
-			(uuid "048b6509-32c8-42d8-89f2-0ed3959965a1")
-		)
-		(pin "3"
-			(uuid "4d30ec65-c1b2-4c1d-8fca-38a188758846")
-		)
-		(pin "7"
-			(uuid "a3680057-0ff3-44f5-9e40-c84725d77117")
-		)
-		(pin "5"
-			(uuid "0b196f6c-6318-46a9-933b-e50ab360d925")
-		)
-		(pin "1"
-			(uuid "83d70af9-9730-418b-80bd-346a7d539a9d")
-		)
-		(pin "2"
-			(uuid "5db1f99e-ece5-46b7-af84-e95d08be6769")
-		)
-		(pin "4"
-			(uuid "77e73673-9c0e-4fdc-9cb6-46fd55087d7d")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "U4")
 					(unit 2)
 				)
 			)
@@ -8550,7 +8880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 73.66 169.418 90)
 			(effects
 				(font
@@ -8659,6 +8989,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 52.07 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9a34c18-a73f-490f-b80d-60a4d924c659")
+		(property "Reference" "#PWR014"
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19efaeae-2991-4284-a6dd-76228af7edb2")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 90.17 246.38 90)
 		(unit 1)
@@ -8683,7 +9078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 90.17 248.158 90)
 			(effects
 				(font
@@ -8750,7 +9145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 91.44 160.528 90)
 			(effects
 				(font
@@ -8793,6 +9188,182 @@
 		)
 	)
 	(symbol
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 49.53 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecee8a6e-4c2f-4e7c-bb74-d5665fa38a7a")
+		(property "Reference" "U4"
+			(at 49.276 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 50.038 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "9c3b2159-0e71-4f7a-8de4-9691399eb75b")
+		)
+		(pin "P$5"
+			(uuid "75b591d3-a6a0-4b55-82a7-0698687e59e1")
+		)
+		(pin "P$8"
+			(uuid "867683a7-a0d8-4eb4-bad3-2873707aaa9c")
+		)
+		(pin "P$2"
+			(uuid "0d3879a2-69aa-4349-953e-fec35d950bff")
+		)
+		(pin "P$6"
+			(uuid "c51413bd-dded-4307-b315-b1f05192f96f")
+		)
+		(pin "P$3"
+			(uuid "ea0771a6-1abc-4450-b777-9b2821978403")
+		)
+		(pin "P$4"
+			(uuid "cad6e0ef-e524-4a0a-a71b-e37629608000")
+		)
+		(pin "P$1"
+			(uuid "89809e3a-edc2-496d-8970-4b221db826c0")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 73.66 274.32 90)
 		(unit 1)
@@ -8817,7 +9388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 73.66 276.098 90)
 			(effects
 				(font
@@ -8884,7 +9455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 53.34 88.138 90)
 			(effects
 				(font
@@ -8921,72 +9492,6 @@
 			(project "Schematic"
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 260.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1215de2-f6a3-48c4-9a61-3f8ca347f89a")
-		(property "Reference" "#PWR026"
-			(at 158.75 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5896758a-ad2a-4f0c-b89a-67cd5b652a06")
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9083,7 +9588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 95.25 19.558 90)
 			(effects
 				(font
@@ -9216,7 +9721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 77.47 28.448 90)
 			(effects
 				(font
@@ -9283,7 +9788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 78.74 47.498 90)
 			(effects
 				(font
@@ -9320,6 +9825,182 @@
 			(project "Schematic"
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ADA4891-2ARZ-R7:ADA4891-2ARZ-R7")
+		(at 48.26 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff9b0e50-7e89-44a5-b68e-b91ad91cbb9f")
+		(property "Reference" "U7"
+			(at 48.006 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4891-2ARZ-R7"
+			(at 48.768 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers (Dual)"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Analog Devices"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ADA4891-2ARZ-R7CT-ND"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=snap"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ADA4891-2ARZ-R7"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ADA4891-2ARZ-R7/Analog+Devices/view-part/?ref=eda"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$7"
+			(uuid "9c3b2159-0e71-4f7a-8de4-9691399eb75c")
+		)
+		(pin "P$5"
+			(uuid "75b591d3-a6a0-4b55-82a7-0698687e59e2")
+		)
+		(pin "P$8"
+			(uuid "13d00281-8235-4052-8d9a-9284c879f345")
+		)
+		(pin "P$2"
+			(uuid "ae9704cc-804d-4268-bbf9-f8bf90665b91")
+		)
+		(pin "P$6"
+			(uuid "c51413bd-dded-4307-b315-b1f05192f970")
+		)
+		(pin "P$3"
+			(uuid "6ba9625d-5586-4e5e-a080-b2e4fc5a0767")
+		)
+		(pin "P$4"
+			(uuid "0d83f9c5-0471-4fa4-96b6-7c639dd22681")
+		)
+		(pin "P$1"
+			(uuid "bf0d5102-1363-46aa-8170-84648e484145")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/e8ca5fa4-4a6d-4506-ae48-b6d8faeab732"
+					(reference "U7")
 					(unit 1)
 				)
 			)

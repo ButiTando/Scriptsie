@@ -4,10 +4,10 @@ from PIL import Image, ImageTk
 
 
 # Custom module for project
-from radiation_systems import Platform, Degrader, Dosimeter
+from radiation_systems import Platform, Degrader, Dosimeter, Test_Camera
 
 
-class CameraFeed:
+class CameraWidget:
 
     '''
     The stream_url used is from the UniFi video page loaded when the camera's IP is typed in a browser.
@@ -31,13 +31,9 @@ class CameraFeed:
         self.video_lable = tk.Label(parent)
         self.video_lable.pack(expand=True, fill="both")
 
-        # Try to caputure video from the stream.
-        try:
-            self.cap = cv2.VideoCapture(camera_selected)
-        except Exception as e:
-            print("Failed to capture video from IP camera.")
-            self.cap = cv2.VideoCapture(0)
-        
+        # Starting capture at IP address.
+        self.cam = Test_Camera(camera_selected)
+        self.feed_back = self.cam.caputure()        
 
         # Track frame size for scaling
         self.frame_width = 1
@@ -57,8 +53,10 @@ class CameraFeed:
         frame_width = self.video_lable.winfo_width() or 320
         frame_height = self.video_lable.winfo_height() or 240
 
-        ret, frame = self.cap.read()
-        if ret:
+        frame = self.cam.get_latest_frame()
+
+        if frame != None:
+
             # Convert from BGR (OpenCV) to RGB (PIL)
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             frame = cv2.flip(frame, 1)  # Flip horizontally
@@ -85,11 +83,13 @@ class CameraFeed:
             self.video_lable.imgtk = imgtk
             self.video_lable.configure(image=imgtk)
 
+        else:
+            pass
+
         self.parent.after(33, self.update_frame)  # ~60 FPS
 
     def on_close(self):
-        if self.cap.isOpened():
-            self.cap.release()
+        self.cam.stop()
 
 class SquareWidgetApp:
     def __init__(self, root):
@@ -135,7 +135,7 @@ class SquareWidgetApp:
             content_frame.pack(expand=True, fill="both")
 
             if info["name"] == "CAM_STREAM":
-                CameraFeed(content_frame)  # Assuming CameraFeed takes a frame
+                CameraWidget(content_frame)  # Assuming CameraFeed takes a frame
             else:
                 label = tk.Label(content_frame, text=info["details"], fg="white", bg=info["color"], font=("Arial", 14))
                 label.pack(expand=True, fill="both")
