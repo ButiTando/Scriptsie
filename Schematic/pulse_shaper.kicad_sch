@@ -3509,7 +3509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 87.63 210.82 0)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 49.53 167.64 0)
 			(effects
 				(font
@@ -4530,7 +4530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 88.9 170.18 0)
 			(effects
 				(font
@@ -5110,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 49.53 120.65 0)
 			(effects
 				(font
@@ -6222,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 48.26 255.27 0)
 			(effects
 				(font
@@ -6598,7 +6598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 92.71 29.21 0)
 			(effects
 				(font
@@ -6905,7 +6905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -7546,7 +7546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 88.9 123.19 0)
 			(effects
 				(font
@@ -7993,7 +7993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 53.34 26.67 0)
 			(effects
 				(font
@@ -8704,7 +8704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 87.63 257.81 0)
 			(effects
 				(font
@@ -9212,7 +9212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 49.53 73.66 0)
 			(effects
 				(font
@@ -9855,7 +9855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADA4891-2ARZ-R7:SOIC8"
+		(property "Footprint" "ADA4891:SOIC8"
 			(at 48.26 208.28 0)
 			(effects
 				(font
