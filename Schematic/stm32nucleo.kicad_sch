@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 86.36 72.39)
+		(at 130.81 30.48)
 		(size 26.67 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "68dcb55e-6f3d-4cd9-990c-6b0778757544")
 		(property "Sheetname" "Part G"
-			(at 86.36 71.6784 0)
+			(at 130.81 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "Part_G.kicad_sch"
-			(at 86.36 97.1046 0)
+			(at 130.81 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +90,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 71.12)
+		(at 228.6 29.21)
 		(size 25.4 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "6b7c644f-6849-4783-a2f6-7e0abd4a780b")
 		(property "Sheetname" "Part I"
-			(at 184.15 70.4084 0)
+			(at 228.6 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "Part_I.kicad_sch"
-			(at 184.15 95.8346 0)
+			(at 228.6 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 231.14 71.12)
+		(at 38.1 71.12)
 		(size 26.67 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +148,7 @@
 		)
 		(uuid "90c189a4-e29f-421f-8773-d4d59fe92239")
 		(property "Sheetname" "Part J"
-			(at 231.14 70.4084 0)
+			(at 38.1 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "Part_J.kicad_sch"
-			(at 231.14 95.8346 0)
+			(at 38.1 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,49 +174,7 @@
 		)
 	)
 	(sheet
-		(at 182.88 31.75)
-		(size 26.67 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ad9bc108-b26f-4bab-9270-35cf9349e287")
-		(property "Sheetname" "Part D"
-			(at 182.88 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Part_D.kicad_sch"
-			(at 182.88 55.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/65ad64f0-96b7-42ef-9c59-729e545063c1"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 134.62 72.39)
+		(at 179.07 30.48)
 		(size 26.67 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +190,7 @@
 		)
 		(uuid "c3ea60d4-dfa3-4b04-a106-775222c1bc17")
 		(property "Sheetname" "Part H"
-			(at 134.62 71.6784 0)
+			(at 179.07 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "Part_H.kicad_sch"
-			(at 134.62 97.1046 0)
+			(at 179.07 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,90 +211,6 @@
 			(project "Schematic"
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/65ad64f0-96b7-42ef-9c59-729e545063c1"
 					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 72.39)
-		(size 27.94 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cf2e0b65-7a38-4a47-a1eb-bbfe2e39d4af")
-		(property "Sheetname" "Part F"
-			(at 39.37 71.6784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Part_F.kicad_sch"
-			(at 39.37 97.1046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/65ad64f0-96b7-42ef-9c59-729e545063c1"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 134.62 31.75)
-		(size 26.67 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d7301de5-ec3a-4ff4-9c61-2722817be67b")
-		(property "Sheetname" "Part C"
-			(at 134.62 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Part_C.kicad_sch"
-			(at 134.62 55.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/65ad64f0-96b7-42ef-9c59-729e545063c1"
-					(page "6")
 				)
 			)
 		)
@@ -379,48 +253,6 @@
 			(project "Schematic"
 				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/65ad64f0-96b7-42ef-9c59-729e545063c1"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 229.87 31.75)
-		(size 27.94 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e9111c96-904f-4cab-b277-32c6a8c49922")
-		(property "Sheetname" "Part E"
-			(at 229.87 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Part E.kicad_sch"
-			(at 229.87 55.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Schematic"
-				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c/65ad64f0-96b7-42ef-9c59-729e545063c1"
-					(page "8")
 				)
 			)
 		)

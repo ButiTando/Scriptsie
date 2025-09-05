@@ -1446,6 +1446,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Power indicator LED\n"
+		(exclude_from_sim no)
+		(at 112.776 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56ee3a7c-27d4-4183-b4d0-162d9faaed5e")
+	)
 	(text "3V3 voltage regulation"
 		(exclude_from_sim no)
 		(at 55.118 70.866 0)
@@ -1465,18 +1475,6 @@
 			)
 		)
 		(uuid "caa4102e-5d16-4bfd-a86c-9a8067cc247c")
-	)
-	(junction
-		(at 71.12 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15e63695-f5d5-43ec-b615-523dcc5615da")
-	)
-	(junction
-		(at 71.12 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2786410e-98b7-4ce2-a5e4-ea332acff327")
 	)
 	(junction
 		(at 58.42 33.02)
@@ -1525,6 +1523,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fff10067-707a-4aa1-972f-565511470f18")
+	)
+	(wire
+		(pts
+			(xy 107.95 58.42) (xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c71145-4a10-40df-bb4a-c056e4b3173b")
 	)
 	(wire
 		(pts
@@ -1608,16 +1616,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 33.02) (xy 80.01 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e4563db-9d11-404b-8525-bcf4f561853d")
-	)
-	(wire
-		(pts
 			(xy 41.91 82.55) (xy 49.53 82.55)
 		)
 		(stroke
@@ -1658,23 +1656,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 33.02) (xy 91.44 33.02)
+			(xy 116.84 58.42) (xy 118.11 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d98c8dd-c8c2-4958-9b26-4815ebf85cdf")
-	)
-	(wire
-		(pts
-			(xy 71.12 40.64) (xy 91.44 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94fda2ef-c382-4e1f-be41-10fe7c64205a")
 	)
 	(wire
 		(pts
@@ -1785,6 +1773,16 @@
 			(type default)
 		)
 		(uuid "df2237c8-e674-4540-8b8d-a991fd46aa53")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.04) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a7fbcb-dadd-4d00-ba26-7ee6dcc0790a")
 	)
 	(wire
 		(pts
@@ -1926,6 +1924,28 @@
 	)
 	(global_label "5V"
 		(shape input)
+		(at 107.95 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b1feba4-0b09-407c-9054-15e4cc1d1127")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.6667 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
 		(at 60.96 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2017,6 +2037,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 118.11 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10898ff5-8bea-4923-9ad0-68224dad20c1")
+		(property "Reference" "#PWR030"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "174afdb1-8787-44bf-95de-b67303f509ea")
+		)
+		(instances
+			(project "Schematic"
+				(path "/e489aebc-5c18-43ce-b37f-71b1d4c7067c"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 58.42 36.83 0)
 		(unit 1)
@@ -2096,7 +2182,7 @@
 		(dnp no)
 		(uuid "1d5ccc74-d77f-4b04-b8d1-cc6c83fec431")
 		(property "Reference" "C3"
-			(at 75.184 35.306 0)
+			(at 76.454 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2191,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 74.93 37.846 0)
+			(at 75.692 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2880,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 33.02 90)
+		(at 113.03 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2803,7 +2889,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9b87fcb-c785-4584-a531-80431576b65a")
 		(property "Reference" "R1"
-			(at 83.82 26.67 90)
+			(at 113.03 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2897,7 @@
 			)
 		)
 		(property "Value" "660"
-			(at 83.82 29.21 90)
+			(at 113.03 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +2905,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 83.82 34.798 90)
+			(at 113.03 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 33.02 0)
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2923,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 33.02 0)
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3080,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 91.44 36.83 90)
+		(at 118.11 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3003,7 +3089,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7c82ac3-4b0e-4224-ae7d-686a67307736")
 		(property "Reference" "D1"
-			(at 95.25 37.1474 90)
+			(at 121.92 62.5474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3098,7 @@
 			)
 		)
 		(property "Value" "LED_RED"
-			(at 95.25 39.6874 90)
+			(at 121.92 65.0874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +3107,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D8.0mm"
-			(at 91.44 36.83 0)
+			(at 118.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 36.83 0)
+			(at 118.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3125,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 91.44 36.83 0)
+			(at 118.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3134,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 36.83 0)
+			(at 118.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
