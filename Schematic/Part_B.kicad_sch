@@ -4875,6 +4875,134 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 173.99 55.88) (xy 181.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4308a1c1-ad88-4256-af9d-82825f773d12")
+	)
+	(wire
+		(pts
+			(xy 121.92 53.34) (xy 138.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4449f699-bf21-4f44-af3d-918dce3bef7b")
+	)
+	(wire
+		(pts
+			(xy 173.99 106.68) (xy 181.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e475a5e-84f5-4d3f-a269-77768f6e70d2")
+	)
+	(wire
+		(pts
+			(xy 121.92 55.88) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a3bc29-bfce-4aa4-a1bb-d8ae9bfbdac4")
+	)
+	(global_label "pulse_out1"
+		(shape input)
+		(at 121.92 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03dc6e85-a4cb-48b2-a6cb-0280757e1af7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.6541 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pulse_out5"
+		(shape input)
+		(at 121.92 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f42aad7-1c63-428a-a284-03b8aafc1143")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.6541 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pulse_out4"
+		(shape input)
+		(at 181.61 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7737f99d-1218-421c-bb27-ec50d841a798")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8759 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pulse_out6"
+		(shape input)
+		(at 181.61 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9179ae5c-0296-4c10-a132-0b7c4e6b7887")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8759 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "NUCLEOH723ZG:NUCLEOH723ZG")
 		(at 156.21 91.44 0)
