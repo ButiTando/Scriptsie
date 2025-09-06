@@ -2904,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 113.03 60.198 90)
 			(effects
 				(font
@@ -3106,7 +3106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D8.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm"
 			(at 118.11 62.23 0)
 			(effects
 				(font

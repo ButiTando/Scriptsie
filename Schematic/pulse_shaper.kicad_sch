@@ -8611,8 +8611,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 125.73 179.07 90)
-		(mirror x)
+		(at 125.73 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
